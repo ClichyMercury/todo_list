@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'features/home/presenter/note_list.dart';
 import 'features/loginAndRegister/presenter/pages/login_page.dart';
 
 void main() {
@@ -17,9 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: LoginPage(),
+      home: Notelist(),
     );
   }
 }
-
-

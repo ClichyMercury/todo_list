@@ -31,7 +31,8 @@ class _LoginPageState extends State<LoginPage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(height: 50.0),
+              //SizedBox(height: 50.0),
+              Image.asset("assets/images/pngwing.com.png"),
               _buildHeader(),
               SizedBox(height: 10.0),
               Text(
@@ -58,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                 textInputAction: TextInputAction.done,
                 controller: userPass,
                 image: 'hide.svg',
-                isObs: true,
+                isObs: false,
                 hintTxt: 'Password',
               ),
               SizedBox(height: 10.0),
@@ -79,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
-              SizedBox(height: 25.0),
+              SizedBox(height: 10.0),
               Align(
                 alignment: Alignment.bottomCenter,
                 child: Column(
